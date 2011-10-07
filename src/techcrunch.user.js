@@ -9,7 +9,7 @@
 // via http://erikvold.com/blog/index.cfm/2010/6/14/using-jquery-with-a-user-script
 function addJQuery(callback) {
     var script = document.createElement("script");
-    script.setAttribute("src", "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
+    script.setAttribute("src", "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js");
     script.addEventListener('load', function() {
             var script = document.createElement("script");
             script.textContent = "(" + callback.toString() + ")();";
