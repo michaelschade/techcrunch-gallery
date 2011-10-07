@@ -36,6 +36,8 @@ To use, once it's installed, simply visit a TechCrunch post and click on an
 image in the gallery. A preview will show up above the gallery and you can
 cycle through the images using the `<< Prev` and `Next >>` links.
 
+You can test it on this [Ice Cream Sandwich post](http://techcrunch.com/2011/10/07/want-to-see-the-next-version-of-android-a-bevy-of-ice-cream-sandwich-screenshots-leak/).
+
 Support
 =======
 
