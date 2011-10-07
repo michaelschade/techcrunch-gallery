@@ -29,6 +29,13 @@ Note that I've only tried this on Google Chrome and Firefox. Your mileage may
 vary. If you find issues, please let me know (see `Support` below) and I'll
 update accordingly.
 
+Usage
+=====
+
+To use, once it's installed, simply visit a TechCrunch post and click on an
+image in the gallery. A preview will show up above the gallery and you can
+cycle through the images using the `<< Prev` and `Next >>` links.
+
 Support
 =======
 
