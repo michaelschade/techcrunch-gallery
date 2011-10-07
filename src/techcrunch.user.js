@@ -2,19 +2,20 @@
 // @name          TechCrunch Image Gallery
 // @namespace     http://mschade.me/userscripts
 // @description   Adds image gallery capabilities to TechCrunch
+// @match         http://techcrunch.com/*
 // @include       http://techcrunch.com/*
 // ==/UserScript==
 
 // via http://erikvold.com/blog/index.cfm/2010/6/14/using-jquery-with-a-user-script
 function addJQuery(callback) {
-  var script = document.createElement("script");
-  script.setAttribute("src", "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
-  script.addEventListener('load', function() {
     var script = document.createElement("script");
-    script.textContent = "(" + callback.toString() + ")();";
+    script.setAttribute("src", "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
+    script.addEventListener('load', function() {
+            var script = document.createElement("script");
+            script.textContent = "(" + callback.toString() + ")();";
+            document.body.appendChild(script);
+            }, false);
     document.body.appendChild(script);
-  }, false);
-  document.body.appendChild(script);
 }
 
 function main() {
