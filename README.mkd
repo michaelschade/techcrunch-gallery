@@ -12,13 +12,33 @@ detail.
 The included user script will automatically load the image gallery
 functionality on TechCrunch posts.
 
+Installation
+============
+
+To install this, all you need to do is grab the
+[user script](https://raw.github.com/michaelschade/techcrunch-gallery/master/src/techcrunch.user.js).
+
+Google Chrome will support this by default. For other browsers, you will need
+a user script extension:
+
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+* [Safari](http://www.simplehelp.net/2007/11/14/how-to-run-greasemonkey-scripts-in-safari/)
+* [Internet Explorer](http://www.bhelpuri.net/Trixie/)
+
+Note that I've only tried this on Google Chrome and Firefox. Your mileage may
+vary. If you find issues, please let me know (see `Support` below) and I'll
+update accordingly.
+
 Support
 =======
 
-To the best of my knowledge, this works well. If you run into a situation where
-it is failing, drop me a note at github [-@-] mschade [-dot-] me, tweet me at
-@michaelschade, or reach out in any other way and I'll be happy to help. Pull
-requests are an even better option for getting something in the codebase.
+To the best of my knowledge, this works well and in any browser that supports
+user scripts.
+
+If you run into a situation where it is failing, drop me a note at github [-@-]
+mschade [-dot-] me, tweet me at @michaelschade, or reach out in any other way
+and I'll be happy to help. Pull requests are an even better option for getting
+something in the codebase.
 
 License
 =======
