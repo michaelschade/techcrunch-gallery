@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          TechCrunch Image Gallery
 // @namespace     http://mschade.me/userscripts
-// @description   Adds image gallery capabilities to TechCrunch
+// @description   Adds image gallery capabilities to TechCrunch by Michael Schade (@michaelschade, http://mschade.me/)
 // @match         http://techcrunch.com/*
 // @include       http://techcrunch.com/*
 // ==/UserScript==
